@@ -1,0 +1,18 @@
+APEX LOGISTICS LLC
+RATE CONFIRMATION #TX-55201
+Carrier: Blue Ridge Transport
+
+Origin: Dallas, TX 75207
+Destination: Denver, CO 80239
+
+Pickup Date: 09/14/2026
+Delivery Date: 09/15/2026
+
+Equipment: Dry Van
+Commodity: Paper goods
+Weight: 38,500 lbs
+
+Rate Breakdown:
+  Line haul ............ $1,450.00
+  Fuel surcharge ....... $175.00
+  Total ................ $1,625.00

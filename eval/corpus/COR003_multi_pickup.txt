@@ -1,0 +1,12 @@
+SUNBELT REEFER LINES
+Load: SB-77840
+
+Pickup 1: El Paso, TX 79915 — 07/10/2026 10:00 AM
+Pickup 2: Tucson, AZ 85714 — 07/11/2026 08:00 AM
+Delivery: Oklahoma City, OK 73129 — 07/13/2026 by 2 PM
+
+Equipment: Reefer (34°F continuous)
+Commodity: Mixed retail
+Weight: see BOL
+
+Rate: $3,200.00 line haul, total $3,200.00

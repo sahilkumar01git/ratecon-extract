@@ -1,0 +1,17 @@
+> > > forwarding again, thread below — current numbers in LAST email only
+>
+> From: dispatch@norcal-freight.example
+> RE: RE: RE: LOAD NCC-88231 !! FINAL !!
+
+OK confirming FINAL REVISED numbers (supersedes all below):
+
+ONTARIO CA 91761  →  AURORA CO 80017
+pu 11/04/2026 ~~ del 11/06/2026
+reefer @ -10F // FROZEN FRENCH FRIES // 41,890#
+
+linehaul $3,100
+FSC $403
+detention (24 hrs) $300   << receiver delay, pre-approved
+TOTAL = $3,803
+
+> earlier quoted $2,950 — void, do not use

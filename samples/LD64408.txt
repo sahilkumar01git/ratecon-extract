@@ -1,0 +1,13 @@
+CARRIER RATE & LOAD CONFIRMATION
+9456 Laguna Springs Drive, Elk Grove, CA, USA, Elk Grove California 95758-7987
+Reference ID LD64408 Booked On 28-Jul-2026 Rate Con Date 28-Jul-2026 Pickup Date 03-Aug-2026
+Carrier Details: 10314803 CANADA INC MC1146347 (905) 670-6882 Flatbed \$700.00 USD 53
+Stops:
+1 Pickup test-r Miami International Airport (MIA), Northwest 42nd Avenue, Miami, FL, USA Load Type FTL Appt Type appointment Shipping Date & Time 07/28/2026
+  Commodity: Ceramics Weight: - g
+2 Pickup test automation pickup Illinois State Police, 100 W Randolph St, Chicago, IL 60601, USA Load Type FTL Appt Type appointment Shipping Date & Time 08/03/2026
+  Commodity: Commodity_t Weight: - Quantity: 55
+3 Drop test122 Hertz Car Rental - San Jose - San Jose Mineta International Airport (SJC), Airport Boulevard, San Jose, CA, USA Load Type FTL Appt Type appointment Delivery Date & Time 08/05/2026
+  Commodity: Commodity_t Weight: - Quantity: 55; Ceramics Weight: - g
+Rate Breakdown: Base Carrier Rate 500.00 USD Carrier Charge 200.00 USD Total 700.00 USD
+Driver Details: John Driver (415) 555-2671 12345 67890

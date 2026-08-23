@@ -1,0 +1,11 @@
+CARRIER RATE & LOAD CONFIRMATION
+9456 Laguna Springs Drive, Elk Grove, CA, USA, Elk Grove California 95758-7987
+Reference ID LD64407 Booked On 28-Jul-2026 Rate Con Date 28-Jul-2026 Pickup Date 31-Jul-2026
+Carrier Details: 10314803 CANADA INC MC1146347 (905) 670-6882 Flatbed $50.00 USD 10
+Stops:
+1 Pickup test automation pickup Illinois State Police, 100 W Randolph St, Chicago, IL 60601, USA PO/Container No 363028 Load Type FTL Appt Type appointment Shipping Date & Time 07/31/2026
+  Commodity: Ceramics Weight: 422 Quantity: 10
+2 Drop test automation drop New York University Jeffrey S. Gould Welcome Center, 50 W 4th Street, New York, NY 10012, USA PO/Container No 816843 Load Type FTL Appt Type fcfs Delivery Date & Time 08/02/2026
+  Commodity: Ceramics Weight: 422 Quantity: 10
+Rate Breakdown: Base Carrier Rate 50.00 USD Total 50.00 USD
+Driver Details: Playwright Driver (415) 555-5072 68972 24912

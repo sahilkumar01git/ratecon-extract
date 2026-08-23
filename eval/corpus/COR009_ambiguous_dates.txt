@@ -1,0 +1,7 @@
+DELTA FREIGHT SOLUTIONS — CONF #DFS-5541
+Shipper: Memphis Cold Storage, Memphis, TN 38118
+Receiver: Atlanta Grocers Co-op, Atlanta, GA 30336
+PU: 3/4/26
+DEL: 3/7/26
+Reefer, frozen foods, 43,300 lbs
+Line haul $2,650.00 / Fuel $290.00 / Total $2,940.00

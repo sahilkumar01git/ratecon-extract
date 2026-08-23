@@ -1,0 +1,11 @@
+WINDY CITY DISTRIBUTION — RC-33015
+Pickup: Chicago, IL 60632 on 08/12/2026
+Delivery: Indianapolis, IN 46241 on 08/13/2026
+Dry van, 42,000 lbs, mixed FMCG
+
+Rate Breakdown:
+Base line haul ............ $1,800.00
+Fuel surcharge ............ $220.00
+Carrier charge ............ $200.00
+Lumper fee (receiver) ..... $150.00
+TOTAL ..................... $2,370.00
