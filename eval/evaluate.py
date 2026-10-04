@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -44,6 +45,8 @@ WRONG_PENALTY_FACTOR = {
     "tertiary": -0.5,   # × weight → -0.25
 }
 NULL_SCORE = 0.0
+RATE_LIMIT_RETRIES = 4
+RATE_LIMIT_WAIT_S = 30
 
 
 def _tier(field: str) -> str:
@@ -61,9 +64,14 @@ def _norm_str(v) -> str | None:
 def _loc_match(out, gold) -> bool:
     if not isinstance(out, dict) or not isinstance(gold, dict):
         return out == gold
+    # Case-insensitive: sources often print locations in capitals
+    # ("ONTARIO CA"), and that is the same city as the gold "Ontario".
+    def _key(v):
+        return v.strip().casefold() if isinstance(v, str) else v
+
     same = (
-        _norm_str(out.get("city")) == _norm_str(gold.get("city"))
-        and _norm_str(out.get("state")) == _norm_str(gold.get("state"))
+        _key(out.get("city")) == _key(gold.get("city"))
+        and _key(out.get("state")) == _key(gold.get("state"))
     )
     if same and gold.get("zip"):
         same = out.get("zip") == gold["zip"]
@@ -142,6 +150,8 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Score extraction against golden annotations.")
     ap.add_argument("golden", nargs="?", default=str(Path(__file__).parent / "golden.jsonl"))
     ap.add_argument("--json", action="store_true", help="Machine-readable summary.")
+    ap.add_argument("--delay", type=float, default=0.0,
+                    help="Seconds to wait between records (for providers with low tokens-per-minute limits).")
     args = ap.parse_args()
 
     import os
@@ -155,9 +165,18 @@ def main() -> int:
     base = Path(args.golden).parent
 
     results = []
-    for rec in records:
+    for i, rec in enumerate(records):
+        if i and args.delay:
+            time.sleep(args.delay)
         text = (base / rec["source"]).resolve().read_text(encoding="utf-8")
         out, diag = extract_and_validate(text)
+        # A rate-limited call yields an all-null record, which would be scored
+        # as a (false) abstention — wait and retry instead of scoring it.
+        for _ in range(RATE_LIMIT_RETRIES):
+            if not (diag.api_error and "RateLimitError" in diag.api_error):
+                break
+            time.sleep(RATE_LIMIT_WAIT_S)
+            out, diag = extract_and_validate(text)
         if diag.api_error:
             print(f"[{rec['id']}] API error: {diag.api_error}", file=sys.stderr)
         results.append(evaluate_record(rec, out.to_dict()))

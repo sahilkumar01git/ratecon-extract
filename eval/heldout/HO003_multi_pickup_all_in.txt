@@ -1,0 +1,12 @@
+SIERRA HEAVY HAUL
+Load: SHH-9917
+
+Pickup 1: Reno, NV 89502 - 06/08/2026 7:00 AM
+Pickup 2: Sacramento, CA 95828 - 06/09/2026 9:00 AM
+Delivery: Seattle, WA 98108 - 06/11/2026 by noon
+
+Equipment: Flatbed
+Commodity: Machinery parts
+Weight: 44,000 lbs
+
+Rate: $4,150.00 flat, all-in, fuel included.

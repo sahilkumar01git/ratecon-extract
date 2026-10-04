@@ -1,0 +1,16 @@
+>> fwd from ops - see CURRENT numbers at the top, older quote below is dead
+>
+> From: loads@borderline-brokers.example
+> Subject: RE: RE: BRK-20771 revised
+
+Confirmed, revised and final:
+
+LAREDO TX 78045 --> COLUMBUS OH 43207
+pu 02/17/2026 // del 02/20/2026
+dry van - auto parts - 42,300#
+
+linehaul $3,450
+FSC $414
+TOTAL = $3,864
+
+> previous offer $3,300 total - VOID, do not bill

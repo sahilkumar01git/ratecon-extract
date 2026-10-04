@@ -1,0 +1,1259 @@
+﻿{
+  "model": "openai/gpt-oss-120b",
+  "n": 16,
+  "avg_composite": 0.9186,
+  "fabr_proxy": 0.0,
+  "results": [
+    {
+      "id": "HO001",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "MW-30418"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Kansas City",
+            "state": "MO",
+            "zip": "64120"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "St. Louis",
+            "state": "MO",
+            "zip": "63147"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-04-14"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-04-15"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 980.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 118.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1098.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 40250
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Canned beverages"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO002",
+      "composite": 1.0,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "CCC-5120"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Savannah",
+            "state": "GA",
+            "zip": "31408"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Jackson",
+            "state": "MS",
+            "zip": "39201"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-05-11"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-05-13"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 2400.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 310.0
+        },
+        "accessorials": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": [
+            {
+              "description": "Stop-off charge (2 stops)",
+              "amount": 150.0
+            }
+          ]
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2860.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 36800
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Dairy"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO003",
+      "composite": 0.867,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "SHH-9917"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Reno",
+            "state": "NV",
+            "zip": "89502"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Seattle",
+            "state": "WA",
+            "zip": "98108"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-06-08"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-06-11"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 4150.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 44000
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Machinery parts"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO004",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "BRK-20771"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "LAREDO",
+            "state": "TX",
+            "zip": "78045"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "COLUMBUS",
+            "state": "OH",
+            "zip": "43207"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-02-17"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-02-20"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 3450.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 414.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 3864.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 42300
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "auto parts"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO005",
+      "composite": 0.833,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "PTB-0642"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Tulsa",
+            "state": "OK",
+            "zip": "74115"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Wichita",
+            "state": "KS",
+            "zip": null
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-03-09"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-03-10"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 875.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 875.0
+        },
+        "weight_lbs": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "commodity": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO006",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "SWX-1187"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Phoenix",
+            "state": "AZ",
+            "zip": "85009"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "zip": "89115"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-01-12"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-01-14"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1600.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 192.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1792.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 28900
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Fresh berries"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO007",
+      "composite": 1.0,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "KST-90552"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Pittsburgh",
+            "state": "PA",
+            "zip": "15201"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Cleveland",
+            "state": "OH",
+            "zip": "44105"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-08-04"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-08-04"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1150.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 138.0
+        },
+        "accessorials": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": [
+            {
+              "description": "Tarp fee",
+              "amount": 75.0
+            },
+            {
+              "description": "Detention (3 hrs)",
+              "amount": 225.0
+            }
+          ]
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1588.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 46000
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Steel beams"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO008",
+      "composite": 0.867,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "PO-4471"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Louisville",
+            "state": "KY",
+            "zip": "40213"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Lexington",
+            "state": "KY",
+            "zip": "40511"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-09-02"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-09-02"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "other"
+        },
+        "line_haul_rate": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 600.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 12000
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Trade show equipment"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO009",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "HRT-66102"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Omaha",
+            "state": "NE",
+            "zip": "68110"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Des Moines",
+            "state": "IA",
+            "zip": "50313"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-10-19"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-10-20"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1980.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 240.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2320.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 37400
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Packaged foods"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "low",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO010",
+      "composite": 0.833,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "NWF-3320"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Boise",
+            "state": "ID",
+            "zip": "83716"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Spokane",
+            "state": "WA",
+            "zip": "99212"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-11-09"
+        },
+        "delivery_date": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1340.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 161.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1501.0
+        },
+        "weight_lbs": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Frozen potatoes"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO011",
+      "composite": 0.9,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "NE-74410"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Albany",
+            "state": "NY",
+            "zip": "12205"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02118"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-07-06"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-07-08"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1025.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1025.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 22150
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Printed materials"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "medium",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO012",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "5589213"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "TAMPA",
+            "state": "FL",
+            "zip": "33619"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "ORLANDO",
+            "state": "FL",
+            "zip": "32824"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-12-01"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-12-01"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 525.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 63.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 588.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 43900
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "BOTTLED WATER"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO013",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "LN-88213"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Minneapolis",
+            "state": "MN",
+            "zip": "55413"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Fargo",
+            "state": "ND",
+            "zip": "58102"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-01-26"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-01-27"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1275.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 153.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1428.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 39750
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Dairy products"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO014",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "GLF-2051"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Beaumont",
+            "state": "TX",
+            "zip": "77705"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Mobile",
+            "state": "AL",
+            "zip": "36603"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-03-23"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-03-25"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1890.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 227.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2117.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 45200
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Pipe"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO015",
+      "composite": 0.867,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "ABX-7730"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Raleigh",
+            "state": "NC",
+            "zip": "27610"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Norfolk",
+            "state": "VA",
+            "zip": "23502"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-06-22"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-06-23"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1340.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 31600
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "furniture"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "HO016",
+      "composite": 1.0,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "PCF-11984"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Salinas",
+            "state": "CA",
+            "zip": "93901"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Portland",
+            "state": "OR",
+            "zip": "97203"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-08-17"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-08-19"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 2980.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 357.6
+        },
+        "accessorials": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": [
+            {
+              "description": "Layover (1 day)",
+              "amount": 350.0
+            }
+          ]
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 3687.6
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 40100
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Lettuce"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    }
+  ]
+}

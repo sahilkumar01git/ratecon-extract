@@ -151,6 +151,8 @@ SYSTEM = """Extract rate confirmation data to JSON. Rules:
 - pickup_date_raw / delivery_date_raw: copy the date EXACTLY as it appears in
   the source text (e.g. "3/4/26", "07/30/2026", "March 15, 2024"). Do not
   resolve, reformat, or guess the year — the raw text is parsed downstream.
+- Multi-stop loads: origin = the FIRST pickup, destination = the FINAL
+  delivery stop (not an intermediate drop).
 - Equipment: van | reefer | flatbed | other (normalize synonyms).
 - Rates: numbers only. line_haul_rate = base line haul. fuel_surcharge = fuel only.
 - accessorials: itemize EVERY other charge separately (detention, lumper,
