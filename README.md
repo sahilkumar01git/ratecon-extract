@@ -2,6 +2,8 @@
 
 LLM-powered pipeline that turns unstructured freight rate confirmations into validated, schema-checked JSON, with confidence scoring designed around the real cost of getting it wrong.
 
+**Results (live, 4 October 2026):** on a 16-document held-out set, 0 wrong fields out of 192, composite score 0.92, and no high-confidence record with a wrong critical field. See [`RESULTS.md`](RESULTS.md) for full numbers, commands and caveats.
+
 ## Problem
 
 Rate confirmations aren't standardized — every carrier and shipper formats them differently, and they carry financially sensitive data. The failure modes aren't symmetric:
@@ -139,6 +141,17 @@ These thresholds are expert judgment, not statistically calibrated against label
 
 [`eval/evaluate.py`](eval/README.md) implements the partial-credit rubric and the **FABR proxy** — share of high-confidence extractions containing a wrong critical field — defined in [`docs/EVAL.md`](docs/EVAL.md). FABR, not accuracy/F1, is the metric tied to real dollars; the target on a proper holdout set is < 0.5%. The bundled golden set — **16 annotated records: 3 supplied samples + 13 crafted edge cases** — exercises the scoring machinery end-to-end but is crafted data, not a quality benchmark.
 
+**Live results** (4 October 2026, `openai/gpt-oss-120b` on Groq; details in [`RESULTS.md`](RESULTS.md)):
+
+| Metric | Held-out set (16 docs) | Golden set (16 docs) |
+|---|---:|---:|
+| Average composite score | 0.919 | 0.878 |
+| FABR proxy | 0.0% (0 of 14) | 0.0% (0 of 12) |
+| Fields wrong / missed | 0 / 0 of 192 | 1 / 1 of 192 |
+| Confidence: high / medium / low | 14 / 1 / 1 | 12 / 1 / 3 |
+
+The held-out documents were written after the last fixes and never used for tuning. Both sets are small and crafted, so these are demo results, not production accuracy.
+
 Reliability behaviors are covered by offline tests with scripted mock LLMs (malformed JSON, invalid enums, missing fields, conflicting rates, timeouts, rate limits, auth failures): `pytest` makes **zero API calls**.
 
 ## Quick start
@@ -168,6 +181,7 @@ pytest
 # Live smoke tests + evaluation (calls your configured provider)
 OPENAI_API_KEY=sk-... pytest tests/test_extraction.py -v -s
 python eval/evaluate.py
+python eval/evaluate.py eval/heldout.jsonl   # held-out set
 ```
 
 **Any OpenAI-compatible provider works** — set `OPENAI_BASE_URL` + `OPENAI_MODEL` in `.env` and the whole pipeline (CLI, tests, eval) runs against it. One tested example, Groq's free tier:
@@ -200,6 +214,8 @@ eval/
     evaluate.py             Partial-credit scoring + FABR proxy vs golden annotations
     golden.jsonl            16 annotated records (3 samples + 13 crafted corpus cases)
     corpus/                 Crafted edge-case rate confirmations for the golden set
+    heldout.jsonl           16 held-out annotated records, written after tuning
+    heldout/                Held-out rate confirmations
 docs/
     EVAL.md                 Eval-set design, FABR metric, drift detection, HITL UX
     CARRIER_MATCH_DESIGN.md System design proposal — not implemented
@@ -212,7 +228,7 @@ Stated plainly:
 
 - **Plain-text in.** PDF/email/fax ingestion and OCR are upstream concerns, intentionally outside this exercise — the assignment's contract is raw text → validated JSON.
 - **The confidence checklist is expert-weighted, not calibrated.** Thresholds encode judgment about cost asymmetry; calibrating them against labeled outcomes (the FABR eval in docs/EVAL.md) is future work.
-- **The bundled eval set is 16 documents.** It exercises the scoring machinery and edge-case handling; it supports no quality claims.
+- **The eval sets are small.** 16 golden plus 16 held-out documents, all crafted and cleaner than real freight paperwork. They show the pipeline works on varied cases; they are not production accuracy.
 - **Date-ambiguity heuristic assumes US conventions.** `M/D/YY` slash formats trigger it; month-name and ISO dates are treated as unambiguous by design.
 - **Single-provider coupling.** Model/timeouts are env-configurable, but prompts and the strict-schema path assume OpenAI-compatible structured outputs.
 - **Totals reconciliation trusts itemization.** The check sums whatever the LLM captured (`line_haul + fuel + accessorials` vs printed total). If a source document itself omits a charge from its printed total, or the model misses an itemized line, reconciliation can flag a false conflict — flagged for review, not silently accepted.
