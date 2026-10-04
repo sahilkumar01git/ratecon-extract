@@ -1,0 +1,7 @@
+PLAINS TRANSPORT BROKERAGE
+Reference PTB-0642
+Pickup: Tulsa, OK 74115 on 03/09/2026
+Deliver: Wichita, KS on 03/10/2026
+Equipment: Flatbed
+Line haul $875.00
+Total $875.00

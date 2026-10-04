@@ -1,0 +1,9 @@
+PACIFIC PRODUCE FREIGHT - PCF-11984
+Pickup: Salinas, CA 93901 on 08/17/2026
+Delivery: Portland, OR 97203 on 08/19/2026
+Reefer, 40,100 lbs, Lettuce
+
+Line haul ............ $2,980.00
+Fuel surcharge ....... $357.60
+Layover (1 day) ...... $350.00
+TOTAL ................ $3,687.60

@@ -1,0 +1,13 @@
+GULF COAST FLATBED - CONFIRMATION GLF-2051
+
+Pickup: Beaumont, TX 77705 on 03/23/2026
+Stop 1 (drop): Baton Rouge, LA 70805 - 03/24/2026
+Stop 2 (final drop): Mobile, AL 36603 - 03/25/2026
+
+Equipment: Flatbed
+Commodity: Pipe
+Weight: 45,200 lbs
+
+Line haul: $1,890.00
+Fuel surcharge: $227.00
+Total: $2,117.00

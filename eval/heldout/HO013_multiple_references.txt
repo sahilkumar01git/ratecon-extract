@@ -1,0 +1,10 @@
+NORTH STAR REFRIGERATED
+Load # LN-88213
+Pickup: Minneapolis, MN 55413 on 01/26/2026
+Delivery: Fargo, ND 58102 on 01/27/2026
+Equipment: Reefer
+Commodity: Dairy products
+Weight: 39,750 lbs
+Line haul: $1,275.00
+Fuel surcharge: $153.00
+Total: $1,428.00

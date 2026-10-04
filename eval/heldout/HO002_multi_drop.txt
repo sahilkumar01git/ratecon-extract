@@ -1,0 +1,15 @@
+COASTAL COLD CHAIN - LOAD CONFIRMATION CCC-5120
+
+Pickup: Savannah, GA 31408 on 05/11/2026
+Stop 1: Macon, GA 31206 - deliver 05/11/2026
+Stop 2: Birmingham, AL 35203 - deliver 05/12/2026
+Stop 3: Jackson, MS 39201 - deliver 05/13/2026
+
+Equipment: Reefer
+Commodity: Dairy
+Weight: 36,800 lbs
+
+Line haul: $2,400.00
+Fuel surcharge: $310.00
+Stop-off charge (2 stops): $150.00
+Total: $2,860.00

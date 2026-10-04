@@ -1,0 +1,13 @@
+MIDWEST LOGISTICS - RATE CONFIRMATION MW-30418
+
+Origin: Kansas City, MO 64120
+Destination: St. Louis, MO 63147
+Pickup: 04/14/2026
+Delivery: 04/15/2026
+Equipment: Dry van
+Commodity: Canned beverages
+Weight: 40,250 lbs
+
+Line haul: $980.00
+Fuel surcharge: $118.00
+Total: $1,098.00
