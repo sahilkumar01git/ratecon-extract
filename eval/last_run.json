@@ -1,0 +1,1255 @@
+﻿{
+  "model": "openai/gpt-oss-120b",
+  "n": 16,
+  "avg_composite": 0.8781,
+  "fabr_proxy": 0.0,
+  "results": [
+    {
+      "id": "LD64392",
+      "composite": 0.9,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "LD64392"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60601"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "New York",
+            "state": "NY",
+            "zip": "10012"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-07-30"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-08-01"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 50.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 50.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 182
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Ceramics"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "LD64407",
+      "composite": 0.9,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "LD64407"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60601"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "New York",
+            "state": "NY",
+            "zip": "10012"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-07-31"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-08-02"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 50.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 50.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 422
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Ceramics"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "LD64408",
+      "composite": 0.883,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "LD64408"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Miami",
+            "state": "FL",
+            "zip": null
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "San Jose",
+            "state": "CA",
+            "zip": null
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-08-03"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-08-05"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 500.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": [
+            {
+              "description": "Carrier Charge",
+              "amount": 200.0
+            }
+          ]
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 700.0
+        },
+        "weight_lbs": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "commodity": {
+          "score": -0.25,
+          "verdict": "wrong",
+          "got": "Ceramics"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR001",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "TX-55201"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Dallas",
+            "state": "TX",
+            "zip": "75207"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Denver",
+            "state": "CO",
+            "zip": "80239"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-09-14"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-09-15"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1450.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 175.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1625.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 38500
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Paper goods"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR002",
+      "composite": 0.633,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "HF-2209"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Long Beach",
+            "state": "CA",
+            "zip": "90802"
+          }
+        },
+        "destination": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-10-02"
+        },
+        "delivery_date": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 2100.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2100.0
+        },
+        "weight_lbs": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "commodity": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        }
+      },
+      "critical_errors": [],
+      "confidence": "low",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR003",
+      "composite": 0.867,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "SB-77840"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "El Paso",
+            "state": "TX",
+            "zip": "79915"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Oklahoma City",
+            "state": "OK",
+            "zip": "73129"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-07-10"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-07-13"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 3200.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 3200.0
+        },
+        "weight_lbs": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Mixed retail"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR004",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "CF-1129"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Portland",
+            "state": "OR",
+            "zip": "97218"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Salt Lake City",
+            "state": "UT",
+            "zip": "84104"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-06-03"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-06-06"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 2875.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 345.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 3220.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 41500
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Lumber"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR005",
+      "composite": 0.867,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "GW-41007"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Cincinnati",
+            "state": "OH",
+            "zip": "45202"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Nashville",
+            "state": "TN",
+            "zip": "37210"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-09-28"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-09-29"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2450.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 39200
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "general freight"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR006",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "RA-66120"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Grand Rapids",
+            "state": "MI",
+            "zip": "49503"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60632"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-08-21"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-08-22"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1900.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 266.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2166.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 44100
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "produce"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR007",
+      "composite": 1.0,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "RC-33015"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60632"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Indianapolis",
+            "state": "IN",
+            "zip": "46241"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-08-12"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-08-13"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 1800.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 220.0
+        },
+        "accessorials": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": [
+            {
+              "description": "Carrier charge",
+              "amount": 200.0
+            },
+            {
+              "description": "Lumper fee (receiver)",
+              "amount": 150.0
+            }
+          ]
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2370.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 42000
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "mixed FMCG"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR008",
+      "composite": 0.8,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "PNW-00091"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Tacoma",
+            "state": "WA",
+            "zip": "98421"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Medford",
+            "state": "OR",
+            "zip": "97501"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-02-02"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-02-02"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 0.0
+        },
+        "weight_lbs": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "commodity": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR009",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "DFS-5541"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Memphis",
+            "state": "TN",
+            "zip": "38118"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Atlanta",
+            "state": "GA",
+            "zip": "30336"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-03-04"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-03-07"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 2650.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 290.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2940.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 43300
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "frozen foods"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "medium",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR010",
+      "composite": 0.667,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "RMC-7712"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Denver",
+            "state": "CO",
+            "zip": "80216"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Salt Lake City",
+            "state": "UT",
+            "zip": "84104"
+          }
+        },
+        "pickup_date": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "delivery_date": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "flatbed"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 2300.0
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 2300.0
+        },
+        "weight_lbs": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Steel coils"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "low",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR011",
+      "composite": 0.867,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "GC-9903"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Houston",
+            "state": "TX",
+            "zip": "77032"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "New Orleans",
+            "state": "LA",
+            "zip": "70129"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-05-15"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-05-16"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "other"
+        },
+        "line_haul_rate": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "fuel_surcharge": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": null
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 1250.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 14000
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "Pipe fittings"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR012",
+      "composite": 0.933,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "ACG-2245"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Charlotte",
+            "state": "NC",
+            "zip": "28208"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "Richmond",
+            "state": "VA",
+            "zip": "23225"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-07-22"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-07-23"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "van"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 2750.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 300.0
+        },
+        "accessorials": {
+          "score": 0.0,
+          "verdict": "null",
+          "got": []
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 3500.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 36700
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "textiles"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "low",
+      "auto_book_error": false
+    },
+    {
+      "id": "COR013",
+      "composite": 1.0,
+      "per_field": {
+        "load_id": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "NCC-88231"
+        },
+        "origin": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "ONTARIO",
+            "state": "CA",
+            "zip": "91761"
+          }
+        },
+        "destination": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": {
+            "city": "AURORA",
+            "state": "CO",
+            "zip": "80017"
+          }
+        },
+        "pickup_date": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": "2026-11-04"
+        },
+        "delivery_date": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "2026-11-06"
+        },
+        "equipment_type": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": "reefer"
+        },
+        "line_haul_rate": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 3100.0
+        },
+        "fuel_surcharge": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 403.0
+        },
+        "accessorials": {
+          "score": 1.0,
+          "verdict": "exact",
+          "got": [
+            {
+              "description": "detention (24 hrs)",
+              "amount": 300.0
+            }
+          ]
+        },
+        "total_rate": {
+          "score": 2.0,
+          "verdict": "exact",
+          "got": 3803.0
+        },
+        "weight_lbs": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": 41890
+        },
+        "commodity": {
+          "score": 0.5,
+          "verdict": "close",
+          "got": "FROZEN FRENCH FRIES"
+        }
+      },
+      "critical_errors": [],
+      "confidence": "high",
+      "auto_book_error": false
+    }
+  ]
+}

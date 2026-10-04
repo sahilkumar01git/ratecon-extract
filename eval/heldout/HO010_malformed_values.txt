@@ -1,0 +1,11 @@
+NORTHWEST FROZEN LINES - BOOKING NWF-3320
+Origin: Boise, ID 83716
+Destination: Spokane, WA 99212
+Equipment: Reefer
+Commodity: Frozen potatoes
+Weight: per BOL
+Pickup: 11/09/2026
+Delivery: TBD - receiver will call with appointment
+Line haul: $1,340.00
+Fuel surcharge: $161.00
+Total: $1,501.00

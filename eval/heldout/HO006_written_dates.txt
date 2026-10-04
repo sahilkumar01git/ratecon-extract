@@ -1,0 +1,11 @@
+SOUTHWEST EXPRESS - CONFIRMATION SWX-1187
+Shipper: Desert Fresh Packing, Phoenix, AZ 85009
+Receiver: Valley Markets DC, Las Vegas, NV 89115
+Pick up January 12, 2026
+Deliver January 14, 2026
+Reefer, set point 34F
+Commodity: Fresh berries
+Weight: 28,900 lbs
+Line haul $1,600.00
+Fuel surcharge $192.00
+Total $1,792.00
